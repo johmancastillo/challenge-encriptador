@@ -179,6 +179,9 @@ main{
 
 .contenedor-resultado{
     position: absolute;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
     bottom: 330px;
     width: 320px;
     height: 450px;
@@ -186,6 +189,7 @@ main{
     margin-right: 10px;
     box-sizing: border-box;
     margin-left: 25px;
+    
 }
 
 .contenedor-resultado p{
