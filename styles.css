@@ -277,7 +277,7 @@ footer{
     }
     .contenedor-caja-texto{
         position: absolute;
-        left: 75px;
+        left: 85px;
         top: 35px;
         padding-left: 30px;
         width: 700px;
@@ -288,7 +288,7 @@ footer{
         display: flex;
         justify-content: center;
         align-items: center;
-        position: relative;
+        position: absolute;
         width: 100%;
         height: 100px; 
         
@@ -296,7 +296,7 @@ footer{
     
     .animacion-carga {
         width: 200px;
-        margin-top: 650px;
+        margin-top: 730px;
         margin-left: 10px;
     }
 
@@ -323,11 +323,11 @@ footer{
 
     .seccion2{
         display: block;
-        position: relative;
-        margin-top: 500px;
+        position: absolute;
+        margin-top: 630px;
         width: 688px;
         height: 343px;
-        right: 0px;
+        right: 30px;
         padding: 32px;
         background-color: #ffffff;
         box-sizing: border-box;
@@ -341,8 +341,8 @@ footer{
         justify-content: center;
         text-align: center;
         align-items: center;
-        left: 0px;
-        top: 5px;
+        left: 50px;
+        top: 45px;
         box-sizing: border-box;
         padding-top: 50px;
     }
@@ -354,8 +354,8 @@ footer{
     .contenedor-parrafo{
         position: absolute;
         box-sizing: border-box;
-        top: 5px;
-        left: 200px;
+        top: 95px;
+        left: 250px;
      }
     
      .contenedor-parrafo h3{
@@ -400,7 +400,7 @@ footer{
         display: flex;
         position: absolute;
         bottom: 40px;
-        top: 270px;
+        top: 320px;
         background-color: aqua;
         padding-left: 25px;
         margin-left: 130px;
@@ -424,10 +424,11 @@ footer{
 
     footer{
         display: flex;
+
         justify-content: center;
         align-items: center;
-        margin-top:1045px;
-        margin-left: 40px;
+        margin-top:1095px;
+        margin-left: 30px;
         border-radius: 30px;
         background: radial-gradient(circle, white 30%, gray 50%, rgb(24, 24, 24) 70%);   
     }
@@ -496,7 +497,7 @@ footer{
         display: flex;
         justify-content: center;
         align-items: center;
-        position: relative;
+        position: absolute;
         width: 100%;
         height: 100px; 
         
@@ -504,14 +505,14 @@ footer{
     
     .animacion-carga {
         width: 200px;
-        margin-top: 540px;
+        margin-top: 575px;
         margin-left: 10px;
     }
 
 
     .alerta{
         position: absolute;
-        font-size: large;
+        font-size: small;
         font-weight: bold;
         top: 425px;
         left: 30px;
@@ -536,12 +537,12 @@ footer{
 
     .seccion2{
         display: block;
-        position: relative;
+        position: absolute;
         width: 390px;
-        height: 350px !important;
+        height: 250px !important;
         right: 0px;
         left: 15px;
-        top: 50px;
+        top: 120px;
         padding: 32px;
         padding-right: 2px;
         background-color: #ffffff;
@@ -595,7 +596,7 @@ footer{
         text-align: justify;
         justify-content: center;
         align-items: center;
-        top: 100px;
+        top: 0px;
         bottom: 5px;
         max-width: 375px;
         height: 200px;
@@ -614,7 +615,7 @@ footer{
         display: flex;
         position: absolute;
         bottom: 40px;
-        top: 150px;
+        top: 250px;
         background-color: aqua;
         padding-left: 25px;
         margin-left: 10px;
@@ -640,7 +641,7 @@ footer{
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 925px;
+        margin-top: 950px;
         margin-left: 30px;
         border-radius: 10px;
         background: radial-gradient(circle, white 30%, gray 50%, rgb(75, 73, 73) 70%);
