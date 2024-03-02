@@ -455,7 +455,7 @@ footer{
 @media only screen and (max-width: 390px) {
     body {
         width: 375px;
-        height: 933px;
+        height: 1000px;
     }
 
     main {
@@ -463,7 +463,7 @@ footer{
         flex-direction: column;
         align-items: center;
     }
-    
+
     .seccion1, .nueva-seccion, .seccion2 {
         width: 100%;
         max-width: 370px;
@@ -514,7 +514,7 @@ footer{
         font-size: large;
         font-weight: bold;
         top: 425px;
-        left: 40px;
+        left: 30px;
         display: flex;
         color: black;
         background-color: white;
@@ -522,10 +522,11 @@ footer{
     
     .contenedor-botones{
         position: absolute;
-        top: 370px;
+        top: 400px;
         height: 80px;
         padding-left: 15px;
-        padding-top: 25%;
+        padding-top: 50px;
+        padding-bottom: 0px;
     }
     
 
@@ -536,12 +537,13 @@ footer{
     .seccion2{
         display: block;
         position: relative;
-        width: 370px;
-        height: 200px;
+        width: 390px;
+        height: 350px !important;
         right: 0px;
-        left: 5px;
-        top: 20px;
+        left: 15px;
+        top: 50px;
         padding: 32px;
+        padding-right: 2px;
         background-color: #ffffff;
         box-sizing: border-box;
         border-radius: 32px;
@@ -593,7 +595,7 @@ footer{
         text-align: justify;
         justify-content: center;
         align-items: center;
-        top: 60px;
+        top: 100px;
         bottom: 5px;
         max-width: 375px;
         height: 200px;
@@ -612,7 +614,7 @@ footer{
         display: flex;
         position: absolute;
         bottom: 40px;
-        top: 160px;
+        top: 150px;
         background-color: aqua;
         padding-left: 25px;
         margin-left: 10px;
@@ -638,8 +640,8 @@ footer{
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top:865px;
-        margin-left: 40px;
+        margin-top: 925px;
+        margin-left: 30px;
         border-radius: 10px;
         background: radial-gradient(circle, white 30%, gray 50%, rgb(75, 73, 73) 70%);
         font-size: small;  
