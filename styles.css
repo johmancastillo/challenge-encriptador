@@ -481,7 +481,7 @@ footer{
         width: 10;
         height: 60px;
         padding-top: 10px;
-        padding-left: 10px;
+        padding-left: 15px;
     }
     
     .contenedor-caja-texto{
@@ -531,7 +531,7 @@ footer{
     }
     
 
-    .btn-encriptar, .btn-desencriptar{
+    .btn-encriptar{
         margin-bottom: 10px;
     }
 
@@ -539,11 +539,12 @@ footer{
         display: block;
         position: absolute;
         width: 390px;
-        height: 250px !important;
+        height: 230px !important;
         right: 0px;
         left: 15px;
-        top: 120px;
+        top: 1px;
         padding: 32px;
+        padding-top: 2px;
         padding-right: 2px;
         background-color: #ffffff;
         box-sizing: border-box;
@@ -615,7 +616,7 @@ footer{
         display: flex;
         position: absolute;
         bottom: 40px;
-        top: 250px;
+        top: 230px;
         background-color: aqua;
         padding-left: 25px;
         margin-left: 10px;
