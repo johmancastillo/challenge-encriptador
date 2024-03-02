@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="Imagenes/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="https://www.aluracursos.com/" target="_blank">
+            <img class="logo" src="Imagenes/logo-alura-gris.png" alt="logo Alura">
+        </a>
+    </header>
+    
+
+    <main>
+        <section class="seccion1">
+                        <div class="contenedor-caja-texto">
+                <textarea placeholder="Ingrese el texto aquí" class="caja-texto"></textarea>
+            </div>
+
+            <div class="alerta">
+                <img src="Imagenes/alerta.svg" alt="">
+                <p> Solo letras minusculas y sin acentos</p>
+            </div>
+
+            <div class="contenedor-botones">
+                <input type="button" class="btn-encriptar" value="Encriptar">
+                <input type="button" class="btn-desencriptar" value="Desencriptar">
+            </div>
+        </section>
+
+        <section class="nueva-seccion">
+            <img src="https://emmadavies23.files.wordpress.com/2015/04/tumblr_nmhbtuuhqi1sonf30o1_400.gif?w=300" class="animacion-carga" style="display: none;">
+        </section>
+
+
+        <section class="seccion2">
+            <div class="contenedor-muneco">
+                <img id="imagen" src="Imagenes/mujer-lupa.jpg" alt="Mujer con lupa">
+            </div>
+
+            <div class="contenedor-parrafo">
+                <h3>Ningún mensaje fue <br> encontrado </h3>
+                <p>Ingresa el texto que deseas encriptar o <br> desencriptar</p>
+            </div>
+
+            <div class="contenedor-copiar">
+                <input type="button" class="btn-copiar" value="Copiar">
+            </div>
+
+            <div class="contenedor-resultado">
+                <p class="texto-resultado"></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h3>JOHMAN CASTILLO</h3>
+        <div>
+            <ul class="footer">
+                <li> <a href="mailto:johmancastillo@gmail.com" target="_blank"> <img src="Imagenes/mail.png" alt="icono-imail"> </a> </li>
+                <li> <a href="https://github.com/johmancastillo" target="_blank"> <img src="Imagenes/github.png" alt="icono-GitHub"> </a> </li>
+                <li> <a href="https://www.linkedin.com/in/johman-castillo-b9103b281/" target="_blank"> <img src="Imagenes/linkedin.png" alt="icono-Linkedin"> </a> </li>
+            </ul>
+        </div>
+    </footer>
+
+    <audio id="audio" src="telegraph-and-morse-code.mp3"></audio>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
