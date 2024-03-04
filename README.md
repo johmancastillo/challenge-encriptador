@@ -16,6 +16,6 @@ Este proyecto es un encriptador de texto simple que encripta y desencripta texto
 
 ## Desafío
 
-Este proyecto forma parte del desafío #challengeoneencriptador6 de Alura Latam, con la finalidad de aprobar nuestra candidatura como estudiante del programa ONE.
+Este proyecto forma parte del desafío #challengeonecodificador6 de Alura Latam, con la finalidad de aprobar nuestra candidatura como estudiante del programa ONE.
 
 Para más información sobre el autor, visita su perfil en [GitHub](https://github.com/johmancastillo) o [LinkedIn](https://www.linkedin.com/in/johman-castillo-b9103b281/).
